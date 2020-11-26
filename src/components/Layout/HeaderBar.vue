@@ -60,6 +60,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/scss/index.scss";
 .header{
   background-color: #fff;
   .header_logo{
@@ -89,7 +90,7 @@ export default {
   .header-top{
     // width:100%;
   height: 40px;
-  background-color: #3971ff;
+  background-color: $bg-color;
   .nav{
     display: flex;
     justify-content:  space-between;
